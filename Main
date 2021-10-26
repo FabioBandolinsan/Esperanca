@@ -1,0 +1,36 @@
+Public class Main{
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    public int V;
+    public int X[]= new int[V];
+    public booean Y[]= new boolean[V]
+    public float P;
+    public int i;
+    public float E;
+    public int soma=0;
+    public int cont=0;
+    
+    System.out.println("Digite o número de lances: ");
+    V= entrada.nextInt();
+    
+    for (i=0; i<V;i++){
+      System.out.println("Digite o valor dos lances lances: ");
+      Y[i]= entrada.nextBooean();
+      if (Y[i] == true){  
+        X[i]=1;
+        cont++;
+      }else{
+          X[i]=0;
+      }
+    }
+    P=2^V
+    for(i=0; i<V;i+){
+      soma= soma+X[i];
+    }
+    E=soma*(cont/P)
+    
+    System.out.println(E);
+    
+    
+  }
+}
